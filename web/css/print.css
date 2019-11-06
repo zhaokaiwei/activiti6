@@ -1,0 +1,14 @@
+.printTable{ display:block; padding:0px; margin:0px auto; width:646px;  }
+.printTable .ct_yb{ padding:0 1px 0 1px; margin:0px; width:100%;  }
+.printTable .ct_yb .tb2{ width:100%; }
+
+.printTable-w100{ display:block; width:100%; margin:auto;}
+.printTableHide{ display:none; }
+.PageNext{ page-break-after:always; }
+
+.printTable .ct1{ padding:0 1px 0 1px; margin:auto; text-align:center;  }
+.printTable .ct1 .tb1{ width:100%; }
+.printTable .ct1 .tb1 tr{ height:35px; }
+
+.tsgl_print{display:block;}
+.tsgl_print_hide{display:none;}

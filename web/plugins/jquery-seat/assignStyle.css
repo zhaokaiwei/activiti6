@@ -1,0 +1,134 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+a {
+    color: #b71a4c;
+}
+.front-indicator {
+    width: 145px;
+    margin: 5px 32px 15px 32px;
+    background-color: #f6f6f6;
+    color: #adadad;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+.wrapper {
+    width: 100%;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    width: 500px;
+    text-align: left;
+}
+.booking-details {
+    float: left;
+    text-align: left;
+    margin-left: 35px;
+    font-size: 12px;
+    position: relative;
+    height: 401px;
+}
+.booking-details h2 {
+    margin: 25px 0 20px 0;
+    font-size: 17px;
+}
+.booking-details h3 {
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+}
+div.seatCharts-cell {
+    color: #182C4E;
+    /*height: 35px;
+    width: 60px;*/
+    height: 25px;
+    width: 60px;
+    line-height: 25px;
+}
+div.seatCharts-seat {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+div.seatCharts-row {
+    height: 35px;
+}
+div.seatCharts-seat.available {
+    background-color: #B9DEA0;
+}
+div.seatCharts-seat.available.first-class {
+    /* 	background: url(vip.png); */
+    background-color: #3a78c3;
+}
+div.seatCharts-seat.focused {
+    background-color: #76B474;
+}
+div.seatCharts-seat.selected {
+    background-color: #0475e1;
+}
+div.seatCharts-seat.unavailable {
+    background-color: #472B34;
+}
+div.seatCharts-container {
+    /*border-right: 1px dotted #adadad;*/
+    width: 3100px;
+    padding: 20px;
+    float: left;
+}
+div.seatCharts-legend {
+    padding-left: 80px;
+    float: left;
+    /*position: absolute;*/
+    /*bottom: 16px;*/
+/*    top:0px;
+    right: 20px;*/
+}
+ul.seatCharts-legendList {
+    padding-left: 0px;
+}
+.seatCharts-legendList li{
+    float: left;
+}
+
+span.seatCharts-legendDescription {
+    margin-left: 5px;
+    line-height: 30px;
+}
+.checkout-button {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+#selected-seats {
+    max-height: 90px;
+    overflow-y: scroll;
+    overflow-x: none;
+    width: 170px;
+}
+
+
+/*è‡ªå·±å†™çš„css*/
+div.seatCharts-seat.ban{
+    background-color: #472B34;
+}
+
+div.seatCharts-seat.present{
+    background-color: #0475e1;
+}
+
+div.seatCharts-seat.vacate{
+    background-color: mediumvioletred;
+}
+
+div.seatCharts-seat.absent{
+    background-color: darkred;
+}
+
+div.seatCharts-seat.no_person{
+    background-color: #B9DEA0;
+}
+
+div.seatCharts-seat.not_start{
+    background-color: sandybrown;
+}
+

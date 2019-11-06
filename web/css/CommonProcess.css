@@ -1,0 +1,58 @@
+﻿body{ width: 100%;
+	height: 100%; margin:0px;font-size:11pt;
+	font-family:'Helvetica Neue',Helvetica,'Lucida Grande','Luxi Sans',Arial,'Hiragino Sans GB',STHeiti,'Microsoft YaHei','Wenquanyi Micro Hei','WenQuanYi Micro Hei Mono','WenQuanYi Zen Hei','WenQuanYi Zen Hei Mono',LiGothicMed!important;}
+
+/* 处理整合样式
+-----------------------------------------------------------*/
+#newProcess_contenter { width:630px; height:410px; margin:auto; text-align:center;}
+#newProcess_header{ }
+#newProcess_header fieldset{ height:40px; text-align:center;}
+#newProcess_header select { width: 140px;}
+#newProcess_headerLeft {width: 450px;float: left;}
+#newProcess_headerRight {width: 176px;float: right;}
+#newProcess_headerCenter {  margin:0; }
+
+#newProcess_main fieldset{ height:321px; *height:320px; position:relative; }
+
+#newProcess_mainLeft{ width:200px; float:left; vertical-align:top;}
+#newProcess_mainLeft div{ text-align:left; text-align:center;}
+#newProcess_mainLeft select{ height:210px; margin-top:12px}
+
+#newProcess_mainRight{ width:410px; float:right; position:relative; vertical-align:top; top:0px;}
+
+#newProcess_selectContentLeft { width: 170px; float: left; text-align:center; }
+#newProcess_selectContentRight {width: 170px; float: right; text-align:center; }
+#newProcess_mainRight select{ width:165px; height:291px; *height:294px; border: 1px solid #E0E0E0; margin-top:5px; }
+
+#newProcess_selectContentCenter { width:65px; padding-top:80px; margin-left:3px; float:left; text-align:center; line-height:30px; }
+#newProcess_selectContentCenter input{  margin:2px 0; width:60px }
+
+#newProcess_footer{ height:30px; text-align:right; padding:5px 6px 0 0; position:relative;}
+
+
+
+#newProcess_header_cl fieldset{ height:269px; _height:269px;  position:relative;}
+
+#newProcess_headerTop_cl { height:40px; }
+#newProcess_headerTopLeft_cl { width: 520px; padding-left:5px; float: left; }
+#newProcess_headerTopLeft_cl select { width: 440px; }
+#newProcess_headerTopRight_cl { margin:auto; float:right; }
+
+#newProcess_headerBottom_cl {text-align:center;}
+#newProcess_headerBottom_cl textarea{ width:600px; height:210px; margin:auto; text-align:left; }
+
+#newProcess_main_cl fieldset{ text-align:left; height:40px; padding-top:-20px;}
+
+
+
+/* 意见修改处理样式
+-----------------------------------------------------------*/
+#process_contenter { width:480px; margin:0 auto;}
+#process_header{ height:295px}
+#process_headerTopLeft { width: 400px; float: left; }
+#process_headerTopLeft select { width: 330px;}
+#process_headerTopRight { margin-left:400px; text-align:center;}
+#process_headerBottom {text-align:center;}
+#process_headerBottom textarea{ height:235px; width:450px; text-align:left;}
+#process_main fieldset{ text-align:left;}
+#process_footer{ height:30px; text-align:right; padding:5px 6px 0 0; position:relative;}

@@ -1,0 +1,113 @@
+#windownbg {
+	width: 100%;
+	display: none;
+	background: #000; /*body-bg*/
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+#windown-box { border-radius:3px; -webkit-border-radius:3px; /* Safari */ padding:0.2em; outline:0;
+	border: 1px solid #dddddd; background: #F7F7F7; color:#333333; text-align: left;
+	position: fixed; _position: absolute; /*For IE 6.0*/
+}
+
+#j-windown-box { border-radius:3px; -webkit-border-radius:3px; /* Safari */ padding:0.2em; outline:0;
+	border: 1px solid #dddddd; background: #F7F7F7; color:#333333; text-align: left;
+	position: fixed; _position: absolute; /*For IE 6.0*/
+}
+
+#windown-title { /*border: 1px solid #A6C9E1; background: url(../images/DivLayer/bg.png) 0 -330px repeat-x;*/
+	padding: 0.4em 0em; border-radius:3px; -webkit-border-radius:3px;
+	border:1px solid #dddddd; background:#e9e9e9; color:#333333; font-weight:bold;
+	touch-action:none; -ms-touch-action:none; min-height:0px; font-size:1em;
+	position: relative;
+	overflow: hidden;
+}
+
+
+#j-windown-title { /*border: 1px solid #A6C9E1; background: url(../images/DivLayer/bg.png) 0 -330px repeat-x;*/
+	padding: 0.4em 0em; border-radius:3px; -webkit-border-radius:3px;
+	border:1px solid #dddddd; background:#e9e9e9; color:#333333; font-weight:bold;
+	touch-action:none; -ms-touch-action:none; min-height:0px; font-size:1em;
+	position: relative;
+	overflow: hidden;
+}
+
+#windown-title h2
+{
+	margin:0.1em 1em; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+	font-size: 14px;
+	/*color: #666;
+	font-size: 14px;
+	position: relative;
+	left: 10px;
+	top: 5px;*/
+}
+
+#j-windown-title h2
+{
+	margin:0.1em 1em; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+	font-size: 14px;
+	/*color: #666;
+	font-size: 14px;
+	position: relative;
+	left: 10px;
+	top: 5px;*/
+}
+
+#windown-close2 {
+	width: 10px;
+	background: url(../images/DivLayer/icon.png) -820px -720px no-repeat;
+	text-indent: -10em;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	height: 16px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+
+#j-windown-close2 {
+	width: 10px;
+	background: url(../images/DivLayer/icon.png) -820px -720px no-repeat;
+	text-indent: -10em;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	height: 16px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+
+
+#windown-content-border 
+{
+    border:0; padding: 0.2em 0em; background:none; overflow:auto;
+	/*border: 1px solid #A6C9E1;
+	padding: 5px 0 5px 5px;
+	background:#E9F3FD;*/
+	position: relative;
+}
+
+#windown-content { text-align: center; position: relative; overflow: hidden; overflow-y:auto; background:#F7F7F7; }
+
+#windown-content .loading {
+	margin-left: -8px;
+	margin-top: -8px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+#windown-content .loading {
+	margin-left: -8px;
+	margin-top: -8px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+

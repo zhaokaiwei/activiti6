@@ -1,0 +1,41 @@
+/*html,body{ overflow:hidden; padding:0px; margin:0px; border:0px; }
+body { background:#328EB4 url(../images/untitled.png) repeat-x; background-size: cover; height:100%;  }
+body { background: url(../ConfigFiles/images/login-bg.jpg) fixed bottom center no-repeat; background-size: cover; background-color:#348BD8; height:100%; }*/
+
+html { width: 100%; height: 100%; overflow-x: hidden; overflow-y: auto; }
+body { width: 100%; min-height: 100%; background: url(../ConfigFiles/images/login-bg.jpg) no-repeat center; background-size: cover; overflow: hidden; }
+
+@media(max-width:768px){  body { background-image:none ; } }
+
+.login{ position:absolute;width:0px; top:45%; left:50%; }
+
+a.login-submit:link, a.login-submit:visited { position: absolute; top: 183px; left: 652px; padding: 1px; color: #FFF }
+.login-submit{ position: absolute; top: 183px; right: 95px; width:40px; padding: 1px; color: #FFF; background:none; border-width:0px; border: 0;cursor: pointer;outline: none;  font:normal 12pt 'Microsoft YaHei'; }
+
+.login-t-r { position:absolute; top:10px; right:20px; }
+a.login-btn1:link, a.login-btn1:visited { background: url(../images/login-btn-bg.png) -145px 0 no-repeat; width:54px; height: 37px; line-height: 37px; color: #E6E8EF; padding-left: 46px; font-size: 14px; display:inline-block; }
+a.login-btn2:link, a.login-btn2:visited { background: url(../images/login-btn-bg.png) 0 0 no-repeat; width: 82px; height: 37px; line-height: 37px; color: #E6E8EF; padding-left: 50px; font-size: 14px; display:inline-block; }
+a.login-icon:link, a.login-icon:visited { background: url(../images/login-btn-bg.png) -216px -114px no-repeat; color: #FFF; padding-left: 30px; display: inline-block; height: 25px; line-height: 25px }
+a.login-btn1:hover, a.login-btn2:hover, a.login-submit:hover, a.login-icon:hover { color: yellow }
+
+.login-btn4 { position: absolute; background: url(../images/login-btn-bg.png) 0 -900px no-repeat; width: 160px; height: 26px; top: 240px; left: 304px; cursor: pointer; font-size: 12px; line-height: 26px; text-align: center; }
+.login-btn4 span { padding-left: 30px; }
+.login-btn4-fcs { background: url(../images/login-btn-bg.png) -41px -109px no-repeat }
+
+.login-qr { position: absolute; top: 139px; left: 50%; margin-left: -290px; width: 580px; display:none; }
+.login-qr-l { float: left; width: 240px; border-right: 1px solid #B19EA1 }
+.login-qr-r { float: left; width:338px; }
+.login-qr-r a { width:119px; overflow:hidden; }
+.login-qr-bg { background: #000; opacity: .5; filter: alpha(opacity=50); position: absolute; top: 80px; left: 50%; margin-left: -304px; width: 607px; height: 0; font-size: 0; line-height: 0; border-radius: 0 0 5px 5px }
+.login-bg { position: absolute; width: 777px; height: 278px; background: url(../ConfigFiles/images/login-bg.png) no-repeat; top:-139px; left: 50%; margin-left: -389px; z-index:999; }
+
+.login-ipt-pos { position:absolute; top:173px; left:97px; width:510px; }
+.login-ipt-pos input{ width: 180px; height: 40px; color: #000000; line-height: 30px; padding-left: 60px; border:1px solid #DEDEDE; border-radius:3px; box-shadow:#eee 1px 1px 2px; font: normal 12pt/30pt 'Microsoft YaHei'; }
+.login-ipt1 { background: url(../images/login-btn-bg.png) 5px -151px no-repeat; }
+.login-ipt2 { background: url(../images/login-btn-bg.png) 5px -201px no-repeat; }
+
+.login-btn3 {  background: url(../images/login-btn-bg.png) -134px -51px no-repeat; width: 115px; height: 43px; line-height: 43px; cursor: pointer; color: #666;  border:1px solid #DEDEDE; border-radius:3px; box-shadow:#eee 1px 1px 2px; display:inline-block; vertical-align:middle; position:absolute; top:0px; }
+.login-btn3 span{ padding-left: 43px; }
+.login-btn3-fcs { background: url(../images/login-btn-bg.png) 4px -51px no-repeat }
+
+.ft { color: #FFF; position: fixed; _position:absolute;  bottom: 10px; padding: 2px; width: 620px; left: 50%; margin-left: -310px }

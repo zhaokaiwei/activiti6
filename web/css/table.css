@@ -1,0 +1,12 @@
+﻿/* 分页 */
+.page { background-color:#fff; border-top:1px solid #e6e6e6; padding:10px 0 0 0; position: fixed; left:0; bottom:0; right:0; _position: absolute; _bottom: auto; _top: expression(documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) ) } 
+.page div { margin:0; }
+/*.layui-table-page{ text-align:center; }*/
+
+.layui-table-view { margin:0; }
+
+/* 树 */
+/*
+.tree { border:1px solid #e6e6e6; }
+*/
+.tree-title{ padding:5px 10px; border-bottom:1px solid #e6e6e6; background-color:#f2f2f2; height:28px; line-height:28px; text-align:center; }

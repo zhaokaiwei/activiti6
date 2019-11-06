@@ -1,0 +1,28 @@
+body{ width: 100%; height: 100%; margin:0px; font-size:14px;
+	font-family:'Helvetica Neue',Helvetica,'Lucida Grande','Luxi Sans',Arial,'Hiragino Sans GB',STHeiti,'Microsoft YaHei','Wenquanyi Micro Hei','WenQuanYi Micro Hei Mono','WenQuanYi Zen Hei','WenQuanYi Zen Hei Mono',LiGothicMed!important;}	
+
+.comm_cont{ margin:0 auto; }
+.comm_cont th { font-size:11pt; }
+.comm_cont td{ font-size:11pt; }
+
+.comm_head{ width:100%; }
+.comm_head fieldset{ padding:5px; }
+
+.comm_main{}
+.comm_main select { width:100%; height:100%; padding:2px;}
+.comm_main_left { float:left; text-align:center; }
+.comm_main_right { float:right; text-align:center; }
+.comm_main_cent { width:70px; float:left; padding-top:80px; margin:auto; text-align:center; }
+.comm_main_cent input{ margin-top:5px;}
+.comm_main_selwh { width:190px; height:350px; }
+
+.comm_footer{ position:relative; padding:5px 0 5px 0; text-align:right; }
+.comm_footer_img { position:absolute; top:10px; left:50px; right:50px; text-align:center; display:none; }
+
+
+
+/*------------------------Á÷³Ì¼à¿Ø-----------------------------*/
+
+#tabs_clqk{ min-height:380px; line-height:1.5; letter-spacing:1px; word-wrap : break-word ;word-break:break-all;}
+#tabs_lcjl{ min-height:380px; line-height:1.5; letter-spacing:1px; padding:5px; word-wrap : break-word ;word-break:break-all;}
+#tabs_clyj{ min-height:380px; line-height:1.5; letter-spacing:1px; padding:5px; word-wrap : break-word ;word-break:break-all;}

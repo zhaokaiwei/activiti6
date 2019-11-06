@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zkw.mapper.BaseDao">
+
+    <select id="listMessages" parameterType="java.lang.String" resultType="java.util.Map">
+        select * from messages where user_id = #{userId}
+    </select>
+
+    <insert id="insertMessage" parameterType="java.util.Map" useGeneratedKeys="true" keyProperty="id">
+        insert into messages (id,user_id,proinst_id,type) values (#{id},#{userId},#{proinstId},#{type})
+    </insert>
+
+    <delete id="deleteMessage" parameterType="java.lang.String">
+        delete from messages where id = #{id}
+    </delete>
+
+
+
+
+    <select id="listSongs" parameterType="java.util.Map" resultType="java.util.Map">
+        select * from music_data
+        <if test="year != '' and year != null">
+            where year = #{year}
+        </if>
+        limit #{page},#{limit}
+    </select>
+
+    <select id="getSongsCount" parameterType="java.util.Map" resultType="java.lang.Integer">
+        select count(*) from music_data
+        <if test="year != '' and year != null">
+            where year = #{year}
+        </if>
+    </select>
+
+    <select id="listArtists" resultType="java.lang.String">
+        select DISTINCT(artist) from music_data ORDER BY artist
+    </select>
+
+    <select id="listTop5SongsAndNum" resultType="java.util.Map">
+            SELECT
+        *
+    FROM
+        (
+            SELECT
+                title,
+                count(*) num
+            FROM
+                music_data
+            GROUP BY
+                title
+        ) A
+    ORDER BY
+        num DESC
+    LIMIT 0,5
+    </select>
+</mapper>
